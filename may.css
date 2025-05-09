@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --main-color: #deab5f --primary-color:#bead
+}
+
+button {
+    background-color: #c59d5f;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* background-color:#47665e ;
+    border:bottom #515365; */
+    background: linear-gradient(to right, #1e1e1e , #6f4e37);
+
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right, #1e1e1e , #6f4e37);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+
+}
+
+li {
+    display: inline;
+    list-style: none;
+    color: #9f6c49;
+}
+
+li a {
+    color: #dfb599;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+li a:hover {
+    border-bottom: 2px solid rgb(77, 42, 18);
+}
+
+.header {
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px; 
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-top: 4px solid rgb(77, 42, 18); 
+    border-top: 4px solid rgb(77, 42, 18); 
+    background: linear-gradient(to right, #1e1e1e , #6f4e37);
+    border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 3px solid rgb(77, 42, 18);
+  /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+ 
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+
+
+}
+
+img {
+    height: 400px;
+    width: 600px;
+ /* padding:20px 70px;  */
+    /* width: 100%; */
+    /* border-radius: 30px; */
+    border-radius: 20px;
+}
+
+.main-heading {
+    color: #dfb599;
+    padding: 10px;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px
+
+    /* position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px; */
+    ;
+}
+.PRIMARY-HEADING {
+    color: #dfb599;
+    padding: 10px;
+    margin: 30px;
+font-size: 60px;
+font-family: 'Times New Roman', Times, serif;
+}
+.btn {
+  
+    color:#582b1e ;
+    background-color: #c59d5f;
+    padding: 10px 30px;
+    font-size: medium;
+    /* transform: translateY(60px); */
+   
+}
+.btn :hover{
+      border: 2px solid  rgb(34, 21, 105);
+
+}
+H1 {
+    font-size:xxx-large;
+    color:#dfb599 ;
+    font-weight: bolder;
+    position: right;
+
+
+}
+
+#our-story {
+    /* height: 100vh; */
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(77, 42, 18);
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img1 {
+width: 400px;
+height: 400px;
+background: url(cupa.JPG);
+background-position: left;    
+background-size: cover;
+border-radius: 20px;
+margin-left: 120px;
+margin-top: 100px;
+}
+
+
+.title-style {
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    transform: translateX(-100px);
+    margin-left: 850px;
+    margin-top: -500px;
+    
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background: rgb(77, 42, 18);
+    transform: translateX(-120px);
+    margin-left: 500;
+}
+
+p{
+    max-width: 500px;
+    color: rgb(24, 26, 75);
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0px;
+    text-align: left;
+    
+}
+
+/* coffe conatiner */
+.coffee-container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 10rem;
+}
+
+
+.img-2 {
+    width: 400px;
+    height: 400px;
+}
+
+.title-two {
+    font-size: 3rem;
+    color: #dfb599;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    max-width: 500px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: #dfb599;
+}
+
+
+.products {
+    margin-top: 5rem;
+     ;
+}
+
+.title-title-three {
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    border: 2px solid rgb(77, 42, 18);
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    position: absolute ;
+    top: -60px;
+}
+
+.img-one {
+    background: url(pexels-nurefsancaliskan-24876150.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-two {
+    background: url(pexels-merve-tulek-145489540-11073146.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-three {
+    background: url(pexels-withoguz-25328666.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title {
+    color: #dfb599;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+
+.card.items p { 
+    color: #dfb599;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+footer {
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #dfb599;
+    font-family: sans-serif;
+    flex-direction: column; 
+}
+
+footer .container {
+    margin: 20px;
+    max-width: 200px;
+    text-align: center;
+}
+
+footer .heading-info {
+    margin-bottom: 20px;
+    font-size: 50px;
+   
+}
+ 
+footer p{
+    line-height: 25px;
+}
+
+span {
+    color: #ce7f4a;
+}
+
+/* hr {
+    margin-bottom:20px;
+    border: cornflowerblue;
+    width: 500px;
+    margin: 0 auto;
+} */
+
+.para {
+    color: #dfb599;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    margin-top: 50px;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 400px;
+   
+}
+
+.locha {
+    margin-left: 900px;
+    margin-top: -180px;
+}
+
+.ab {
+    margin-left: 850px;
+}
+
+.container {
+    padding: 10px 20px ;
+}
+
+.logo {
+   height: 40px;
+}
+
+
